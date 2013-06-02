@@ -24,7 +24,7 @@ namespace :maintenance do
 
   task :import_grantees => :environment do
     Grantee.destroy_all
-    filename = File.expand_path('/Users/matt/Documents/dev/civic_hackathon2013/NEA/May13-HackDayChallenge_GranteeLocations.csv', __FILE__)
+    filename = File.join(Rails.root, 'data','May13-HackDayChallenge_GranteeLocations.csv')
     file = File.new(filename, 'r')
     puts "reading..."
     first = true
@@ -58,7 +58,7 @@ namespace :maintenance do
 
   task :import_venues => :environment do
     Venue.destroy_all
-    filename = File.expand_path('/Users/matt/Documents/dev/civic_hackathon2013/NEA/May13-HackDayChallenge_VenueLocations/venues.csv', __FILE__)
+    filename = File.join(Rails.root, 'data','venues.csv')
     file = File.new(filename, 'r')
     puts "reading..."
     first = true
