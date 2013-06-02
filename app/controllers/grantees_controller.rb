@@ -1,0 +1,2 @@
+class GranteesController < ApplicationController
+end

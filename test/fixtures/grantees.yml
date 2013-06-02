@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  grant_num: MyString
+  fiscal_year: 
+  nea_office_id: 1
+  grantee_name: MyString
+  url: MyString
+  address1: MyString
+  address2: 
+  city: MyString
+  state: MyString
+  zip: MyString
+  latitude: MyString
+  longitude: MyString
+
+two:
+  grant_num: MyString
+  fiscal_year: 
+  nea_office_id: 1
+  grantee_name: MyString
+  url: MyString
+  address1: MyString
+  address2: 
+  city: MyString
+  state: MyString
+  zip: MyString
+  latitude: MyString
+  longitude: MyString

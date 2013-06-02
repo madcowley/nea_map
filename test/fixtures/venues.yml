@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  grant_num: MyString
+  event_year: 1
+  activity_type_id: 1
+  venue_type_id: 1
+  name: MyString
+  address1: MyString
+  address2: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  nea_venue_id: 1
+  latitude: MyString
+  longitude: MyString
+  grantee: MyString
+  facility_type_id: 1
+
+two:
+  grant_num: MyString
+  event_year: 1
+  activity_type_id: 1
+  venue_type_id: 1
+  name: MyString
+  address1: MyString
+  address2: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  nea_venue_id: 1
+  latitude: MyString
+  longitude: MyString
+  grantee: MyString
+  facility_type_id: 1
