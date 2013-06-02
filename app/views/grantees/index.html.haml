@@ -1,0 +1,15 @@
+%table
+  %thead
+    %tr
+      %th Grantee
+      %th Fiscal Year
+      %th NEA Office
+      %th Venue
+  - @grantees.each do |grantee|
+
+    %tr
+      %td= safe_url grantee.url, grantee.grantee_name, grantee.grantee_name
+      %td= grantee.fiscal_year
+      %td= grantee.nea_office.name
+      %td
+
